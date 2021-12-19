@@ -7,9 +7,9 @@ SEED = 42
 seed(SEED)
 tf.random.set_seed(SEED)
 
-evaluation_data_dir = '60-20-10-10'
+evaluation_data_dir = '../datasets/60-20-10-10'
 model_path = '../saturday/'
-model_name = 'kcnn-01-32e.best.hdf5'
+model_name = 'cnnSmall-32e.best.hdf5'
 
 
 img_width = 448
